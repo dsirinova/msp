@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+.section-one .account-page {
+    padding: 20px 0px;
+}
+
+.section-one .account-page .account-body .account-table {
+    margin-bottom: 40px;
+}
+
+.section-one .account-page .account-body .account-table .big-shadow {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+}
+
+.section-one .account-page .account-body .account-table .table-custom {
+    border-collapse: inherit;
+    border-spacing: 2px;
+}
+
+.section-one .account-page .account-body .account-table .table-custom th {
+    font-size: 13px;
+    color: #999;
+    border-bottom: 5px solid #f8f9fa;
+    border-right: 1px solid #f8f9fa;
+    border-left: 1px solid #f8f9fa;
+    border-top: 5px solid #f8f9fa;
+
+}
+
+.section-one .account-page .account-body .account-table .table-custom td {
+    border-bottom: 5px solid #f8f9fa;
+    border-right: 1px solid #f8f9fa;
+    border-left: 1px solid #f8f9fa;
+}
+
+.section-one .account-page .account-body .account-table .table-custom thead tr th {
+    padding: 15px;
+}
+
+.section-one .account-page .account-body .account-table .table-custom tbody tr td {
+    padding: 15px;
+}
+
+.section-one .account-page .account-body .account-table .table-custom tbody tr td.eyeicon {
+    cursor: pointer;
+}
+
+.section-one .account-page .account-body .account-table .table-custom tbody.nowrap {
+    white-space: nowrap;
+}
+
+@media screen and (max-width:768px) {
+    .section-one .account-page .account-body .account-table {
+        overflow-x: auto;
+    }
+}

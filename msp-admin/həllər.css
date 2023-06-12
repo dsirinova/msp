@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.panel-header {
+    padding: 15px 20px 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    color: #595959;
+    font-size: 11px;
+}
+
+h1 {
+    color: #00817d;
+}
+
+/* section one */
+
+.section-one.bgpink {
+    background: linear-gradient(rgba(71, 75, 149, .7), rgba(117, 82, 174, .7));
+
+}
+
+.section-one .p4015 {
+    padding: 40px 15px 0px;
+}
+
+.section-one .card-custom {
+    border: 1px solid rgba(77, 174, 248, .1);
+    background: rgba(94, 109, 190, .2);
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.section-one .card-custom .progress {
+    height: 50px;
+}
+
+/* section two */
+.section-two .card {
+    margin: 0 0 20px;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+
+}
+
+.section-two .card .card-title {
+    padding: 20px
+}
+
+.section-two .card .card-head {
+    color: #702f8a;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .08em;
+    padding: 5px 5px 5px 20px;
+    position: relative;
+    max-width: 75%;
+    background-color: #f0eaf3;
+
+}
+
+.section-two .card .card-head .card-trans {
+    position: absolute;
+    width: 50px;
+    background-color: #f0eaf3;
+    top: 0;
+    right: -16px;
+    height: 33px;
+    transform: skewX(-44.02897806deg);
+}
+
+.section-two .card .card-title .btn-custom {
+    background-color: #00817d;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+
+.section-two .card .card-title .card-buttons{
+    flex-wrap: wrap;
+    gap:12px
+}
+
+.section-two form .btn{
+    background-color: #ff7b00;
+}

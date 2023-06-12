@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.panel-header {
+    padding: 15px 20px 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    color: #595959;
+    font-size: 11px;
+}
+
+h1 {
+    color: #00817d;
+}
+
+.section-one .account-page {
+    padding: 20px 0px;
+}
+
+.section-one .account-page .account-header {
+    background-image: url('images/A9716130.3137a3d2dfa3aa75b41e.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-one .account-page .account-header .account-img {
+    display: flex;
+    justify-content: center;
+}
+
+.section-one .account-page .account-header .account-img img {
+    width: 146px;
+    height: 146px;
+    border-radius: 50%;
+
+}
+
+.section-one .account-body{
+    padding: 40px;
+}
+
+.section-one .account-body .contact-information{
+    padding: 15px;
+}
+.section-one .account-body .p-10{
+    padding: 10px;
+    background-color:#f8f9fa;
+}

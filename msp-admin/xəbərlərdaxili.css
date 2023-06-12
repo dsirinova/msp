@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.section-one .pt-20 {
+    padding-top: 20px;
+}
+
+.panel-header {
+    color: #595959;
+    font-size: 11px;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+
+}
+
+.panel-header-text h1 {
+    font-weight: 600;
+    padding: 20px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.panel-header-date {
+    padding: 10px 40px;
+    font-size: 14px;
+}
+
+.panel-img img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.panel-text {
+    padding: 40px;
+}
+
+.section-one .container .card:hover {
+    background-color: #00817d;
+    color: #fff;
+}
+
+.section-one .news .mb-20 {
+    margin-bottom: 20px;
+}
+
+.section-one .news-info .mb-20 {
+    margin-bottom: 20px;
+
+}
+
+.section-one .card .card-body .pt-2 {
+    font-weight: 300;
+}
+
+.section-one .card.zoom-img:hover .card-body .card-text {
+    color: #fff;
+}
+
+.section-one .card.zoom-img:hover .card-body i {
+    color: #fff !important;
+}
+
+.section-one .card .card-text {
+    color: #00817d;
+    font-weight: 600;
+}
+
+.section-one .card img {
+    height: 191px;
+    width: 100%;
+}
+
+.section-one .card.zoom-img {
+    overflow: hidden;
+}
+
+.section-one .card.zoom-img .img-style {
+    overflow: hidden;
+}
+
+.section-one .card.zoom-img .img-style img {
+    transition: transform 0.3s ease;
+}
+
+.section-one .card.zoom-img:hover img {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .section-one .container {
+        max-width: 740px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section-one .card img {
+        height: 100%;
+        width: 100%;
+    }
+}
