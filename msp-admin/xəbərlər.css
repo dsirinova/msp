@@ -24,9 +24,6 @@ h1 {
 
 
 /* section one */
-.section-one .container {
-    border-bottom: 1px solid rgba(0, 0, 0, .05);
-}
 
 .section-one .container .mb-30 {
     margin-bottom: 30px;
@@ -47,16 +44,11 @@ h1 {
 
 .section-one .card .card-text {
     color: #00817d;
-    font-weight: 600;
 }
 
 .section-one .card img {
     height: 260px;
     width: 100%;
-}
-
-.section-one .card.zoom-img .img-style {
-    overflow: hidden;
 }
 
 .section-one .card.zoom-img .img-style img {
@@ -73,4 +65,8 @@ h1 {
 
 .section-one .card.zoom-img:hover .card-body i {
     color: #fff !important;
+}
+
+.section-one .panel-footer {
+    border-top: 1px solid rgba(0, 0, 0, .05);
 }

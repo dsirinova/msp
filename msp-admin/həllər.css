@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .cursor {
@@ -27,10 +26,9 @@ h1 {
 
 .section-one.bgpink {
     background: linear-gradient(rgba(71, 75, 149, .7), rgba(117, 82, 174, .7));
-
 }
 
-.section-one .p4015 {
+.section-one .p-4015 {
     padding: 40px 15px 0px;
 }
 
@@ -46,11 +44,15 @@ h1 {
 }
 
 /* section two */
+
+.section-two .dropdown-menu .search {
+    max-height: 200px;
+}
+
 .section-two .card {
     margin: 0 0 20px;
     border-bottom-right-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
-
 }
 
 .section-two .card .card-title {
@@ -59,14 +61,10 @@ h1 {
 
 .section-two .card .card-head {
     color: #702f8a;
-    text-transform: uppercase;
-    font-weight: 500;
     letter-spacing: .08em;
     padding: 5px 5px 5px 20px;
-    position: relative;
     max-width: 75%;
     background-color: #f0eaf3;
-
 }
 
 .section-two .card .card-head .card-trans {
@@ -81,17 +79,18 @@ h1 {
 
 .section-two .card .card-title .btn-custom {
     background-color: #00817d;
-    color: #fff;
-    border-radius: 20px;
-    font-weight: 600;
 }
 
-
-.section-two .card .card-title .card-buttons{
+.section-two .card .card-title .card-buttons {
     flex-wrap: wrap;
-    gap:12px
+    gap: 12px
 }
 
-.section-two form .btn{
+.section-two form .btn-orange {
     background-color: #ff7b00;
+}
+
+.section-two .dropdown .text {
+    font-size: 14px;
+    color: #333;
 }

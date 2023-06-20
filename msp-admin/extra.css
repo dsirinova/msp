@@ -11,6 +11,16 @@
     cursor: pointer
 }
 
+h3{
+    font-size: 26px;
+}
+
+@media screen and (max-width:992px) {
+    h3 {
+        font-size: 20px;
+    }
+}
+
 /* header */
 
 header .container a .logo {
@@ -31,13 +41,11 @@ header .container a.logobefore::before {
 header .container .right-side .top-right-side .btn-login-color {
     background-color: #00817d;
     font-size: 14px;
-    border-radius: 20px;
 }
 
 header .container .right-side .top-right-side .btn-registr-color {
     background-color: #dd2300;
     font-size: 14px;
-    border-radius: 20px;
 }
 
 .navbar.navcolor {
@@ -104,7 +112,6 @@ header .container .right-side .top-right-side .btn-registr-color {
 
     header .container {
         max-width: 100%;
-
     }
 
     .navbar.navcolor {
@@ -156,7 +163,7 @@ header .container .right-side .top-right-side .btn-registr-color {
 @media screen and (min-width:992px) {
 
     .container .right-side .navbar {
-        font-size: 13px;
+        font-size: 13px; 
     }
 
     .navbar .offcanvas-body .navbar-nav {
@@ -206,35 +213,22 @@ header .container .right-side .top-right-side .btn-registr-color {
     border-spacing: 2px;
 }
 
-.section-one .responsive-table .big-shadow {
-    /* box-shadow: 0 0 40px 0 rgba(0, 0, 0, .1); */
+.responsive-table .big-shadow {
     background-color: #f8f9fa;
 }
 
-.section-one .responsive-table .table-custom th {
+.responsive-table .table-custom th {
     font-size: 13px;
     color: #999;
+    border-width: 5px 1px;
+    border-style: solid;
+    border-color: #f8f9fa;
+}
+
+.responsive-table .table-custom td {
     border-bottom: 5px solid #f8f9fa;
     border-right: 1px solid #f8f9fa;
     border-left: 1px solid #f8f9fa;
-    border-top: 5px solid #f8f9fa;
-
-}
-
-.section-one .responsive-table .table-custom td {
-    border-bottom: 5px solid #f8f9fa;
-    border-right: 1px solid #f8f9fa;
-    border-left: 1px solid #f8f9fa;
-}
-
-.table-custom th {
-    font-size: 13px;
-    color: #999;
-    border-bottom: 5px solid #f8f9fa;
-}
-
-.table-custom td {
-    border-bottom: 5px solid #f8f9fa;
 }
 
 .table-custom thead tr th {
@@ -245,55 +239,37 @@ header .container .right-side .top-right-side .btn-registr-color {
     padding: 15px;
 }
 
-tbody.nowrap {
-    white-space: nowrap;
-}
-
 .banner {
-    width: 100%;
-    height: 480px;
-    object-fit: cover;
+    height: 490px;
 }
 
 @media screen and (max-width:604px) {
-    .section-one .responsive-table {
+    .responsive-table {
         overflow-x: auto;
     }
 }
 
 @media screen and (max-width:992px) {
     .banner {
-        object-fit: none;
+        object-fit: none !important;
     }
 }
 
 /* section two */
-.section-two .container.p4010 {
+.section-two .container.p-4010 {
     padding: 40px 10px;
 }
 
 .section-two .container .section-title .textcolor {
     color: #00817d;
-    font-weight: 600;
-    font-size: 32px;
-}
-
-.section-two .container .section-title p {
-    font-weight: 700;
 }
 
 .section-two .card .card-body {
     color: #007ad9;
-    font-weight: 600;
-}
-
-.section-two .container .owl-carousel .zoom-img .img-style {
-    width: 100%;
 }
 
 .section-two .container .owl-carousel .zoom-img img {
     height: 180px;
-    width: 100%;
     transition: transform 0.3s ease;
 }
 
@@ -306,24 +282,11 @@ tbody.nowrap {
         height: 360px;
     }
 }
-@media screen and (max-width:992px){
-    .section-two .container .section-title .textcolor{
-        font-size: 20px;
-    }
-}
 
 /* section three */
 
-.section-three .card .fw900 {
-    font-weight: 900;
-}
-
 .section-three .card .fs20 {
     font-size: 20px;
-}
-
-.section-three.card .fs40 {
-    font-size: 40px;
 }
 
 .section-three .card .mp1015 {
@@ -334,6 +297,10 @@ tbody.nowrap {
 .section-three .card .btn {
     background-color: #00817d;
 }
+.section-three .card .text-gray{
+    color: #595959;
+    font-size: 15px;
+}
 
 /* section four */
 .section-four.bgpink {
@@ -341,7 +308,7 @@ tbody.nowrap {
 
 }
 
-.section-four .p4015 {
+.section-four .p-4015 {
     padding: 40px 15px 0;
 }
 
@@ -350,7 +317,6 @@ tbody.nowrap {
     background: rgba(94, 109, 190, .2);
     padding: 15px;
     margin-bottom: 40px;
-
 }
 
 .section-four .card-custom .progress {
@@ -361,38 +327,20 @@ tbody.nowrap {
 
 .section-five .container .textcolor {
     color: #00817d;
-    font-size: 32px;
-    font-weight: 600;
-
 }
 
-.section-five .container.p4010 {
+.section-five .container.p-4010 {
     padding: 40px 10px;
 }
 
-.section-five .container .section-title p {
-    font-weight: 700;
-}
-
-.section-five .container .btn{
+.section-five .container .btn {
     border: 1px solid #595959;
-    flex-wrap: wrap;
 }
 
-@media screen and (max-width:992px){
-    .section-five .container .textcolor{
-        font-size: 20px;
-    }
-}
 
 /* section six */
 
-.section-six .container .owl-carousel .zoom-img .img-style {
-    width: 100%;
-}
-
 .section-six .container .owl-carousel .zoom-img img {
-
     height: 180px;
     transition: transform 0.3s ease;
 }
@@ -403,17 +351,15 @@ tbody.nowrap {
 
 .section-six .container .section-title .textcolor {
     color: #00817d;
-    font-weight: 600;
-    font-size: 32px;
-}
-
-.section-six .container .section-title p {
-    font-weight: 700;
 }
 
 .section-six .container .owl-carousel .card:hover {
     background-color: #00817d;
     color: #fff;
+}
+
+.section-six .container .owl-carousel .card .card-body .card-date {
+    font-size: 14px;
 }
 
 .section-six .card .card-body .pb-2 {
@@ -422,11 +368,6 @@ tbody.nowrap {
 
 .section-six .card.zoom-img:hover .card-body i {
     color: #fff !important;
-}
-@media screen and (max-width:992px){
-    .section-six .container .section-title .textcolor{
-        font-size: 20px;
-    }
 }
 
 /* footer */
@@ -465,39 +406,21 @@ footer .container .footer-description {
     font-weight: 300;
 }
 
-footer .container h4 {
-    font-weight: 600;
-}
-
-footer .container ul {
-    padding-left: 0;
-}
-
 footer .container ul li {
-    list-style-type: none;
     font-size: 14px;
-
 }
 
 footer .container ul li a span {
-    color: #ccc !important
+    color: #ccc
 }
 
 footer .container ul li a span:hover {
-    color: #fff !important;
-}
-
-footer .container ul li a {
-    text-decoration: none;
-}
-
-footer .container a {
-    text-decoration: none;
+    color: #fff
 }
 
 footer .top-side .third a {
     font-size: 14px;
-    color: #ccc !important
+    color: #ccc
 }
 
 footer .top-side .third a .number:hover {
@@ -509,7 +432,6 @@ footer .top-side .third a .info:hover {
 }
 
 footer .social-contact {
-    display: flex;
     flex-wrap: wrap;
     gap: 12px;
 }
@@ -521,11 +443,8 @@ footer .first,
 }
 
 footer .social-contact .social-custom {
-    display: flex;
     width: 40px;
     height: 40px;
-    align-items: center;
-    justify-content: center;
     background-color: red;
 }
 

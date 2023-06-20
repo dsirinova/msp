@@ -20,11 +20,9 @@
     font-size: 11px;
     padding: 15px 20px;
     border-bottom: 1px solid rgba(0, 0, 0, .05);
-
 }
 
 .panel-header-text h1 {
-    font-weight: 600;
     padding: 20px 40px;
     border-bottom: 1px solid rgba(0, 0, 0, .05);
 }
@@ -37,8 +35,6 @@
 .panel-img img {
     object-position: center;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
 }
 
 .panel-text {
@@ -56,7 +52,6 @@
 
 .section-one .news-info .mb-20 {
     margin-bottom: 20px;
-
 }
 
 .section-one .card .card-body .pt-2 {
@@ -73,20 +68,11 @@
 
 .section-one .card .card-text {
     color: #00817d;
-    font-weight: 600;
 }
 
 .section-one .card img {
     height: 191px;
     width: 100%;
-}
-
-.section-one .card.zoom-img {
-    overflow: hidden;
-}
-
-.section-one .card.zoom-img .img-style {
-    overflow: hidden;
 }
 
 .section-one .card.zoom-img .img-style img {

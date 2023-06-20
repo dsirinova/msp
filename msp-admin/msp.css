@@ -24,19 +24,18 @@ h1 {
 
 /* section one */
 
-.section-one .container {
-    border-bottom: 1px solid rgba(0, 0, 0, .05);
-}
-
 .section-one .container .mb-30 {
     margin-bottom: 30px;
 }
 
 .section-one .card .card-text {
     color: #00817d;
-    font-weight: 600;
 }
 
 .section-one .card img {
     height: 250px;
+}
+
+.section-one .panel-footer {
+    border-top: 1px solid rgba(0, 0, 0, .05);
 }
