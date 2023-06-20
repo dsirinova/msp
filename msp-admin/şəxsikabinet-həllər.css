@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
-    font-family: 'Roboto', sans-serif;
 
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.cursor {
+    cursor: pointer
+}
+
 .section-one .account-page {
     padding: 20px 0px;
 }
@@ -24,10 +32,9 @@
 .section-one .account-page .account-body .account-table .table-custom th {
     font-size: 13px;
     color: #999;
-    border-bottom: 5px solid #f8f9fa;
-    border-right: 1px solid #f8f9fa;
-    border-left: 1px solid #f8f9fa;
-    border-top: 5px solid #f8f9fa;
+    border-width: 5px 1px;
+    border-style: solid;
+    border-color: #f8f9fa;
 
 }
 
@@ -43,14 +50,6 @@
 
 .section-one .account-page .account-body .account-table .table-custom tbody tr td {
     padding: 15px;
-}
-
-.section-one .account-page .account-body .account-table .table-custom tbody tr td.eyeicon {
-    cursor: pointer;
-}
-
-.section-one .account-page .account-body .account-table .table-custom tbody.nowrap {
-    white-space: nowrap;
 }
 
 @media screen and (max-width:768px) {

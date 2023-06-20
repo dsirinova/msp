@@ -22,12 +22,7 @@ h1 {
     color: #00817d;
 }
 
-
 /* section one */
-
-.section-one .container {
-    border-bottom: 1px solid rgba(0, 0, 0, .05);
-}
 
 .section-one .container .mb-30 {
     margin-bottom: 30px;
@@ -35,11 +30,14 @@ h1 {
 
 .section-one .card .card-text {
     color: #00817d;
-    font-weight: 600;
 }
 
 .section-one .card img {
     height: 190px;
+}
+
+.section-one .panel-footer {
+    border-top: 1px solid rgba(0, 0, 0, .05);
 }
 
 @media screen and (max-width:992px) {
@@ -47,5 +45,4 @@ h1 {
         height: 190px;
         width: 100%;
     }
-
 }
