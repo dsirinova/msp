@@ -91,7 +91,7 @@ header .container .right-side .top-right-side .btn-registr-color {
     font-weight: 400;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
     header .container a .logo {
         position: absolute;
         z-index: 1;
@@ -101,12 +101,15 @@ header .container .right-side .top-right-side .btn-registr-color {
         height: 60px;
     }
 
-    header .container a.logobefore::before {
+    /* header .container a.logobefore::before {
         display: none;
     }
 
     header .container .right-side .btn-login-color,
     .btn-registr-color {
+        display: none;
+    } */
+    .top-right-side{
         display: none;
     }
 
