@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.section-one .pt-20 {
+    padding-top: 20px;
+}
+
+.panel-header {
+    color: #595959;
+    font-size: 11px;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.panel-header-text h1 {
+    padding: 20px 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.panel-header-date {
+    padding: 10px 40px;
+    font-size: 14px;
+}
+
+.panel-header-date span {
+    color: #00817d;
+
+}
+
+.panel-img img {
+    object-position: center;
+    object-fit: cover;
+}
+
+.panel-text {
+    padding: 40px;
+}
+
+.section-one .container .card:hover {
+    background-color: #00817d;
+    color: #fff;
+}
+
+.section-one .news .mb-20 {
+    margin-bottom: 20px;
+}
+
+.section-one .news-info {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-one .container {
+        max-width: 740px;
+    }
+}

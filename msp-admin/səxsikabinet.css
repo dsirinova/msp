@@ -21,6 +21,7 @@
 h1 {
     color: #00817d;
 }
+
 /* section-one */
 .section-one .account-page {
     padding: 20px 0px;
@@ -39,14 +40,20 @@ h1 {
     height: 146px;
 }
 
-.section-one .account-body{
+.section-one .account-body {
     padding: 40px;
 }
 
-.section-one .account-body .contact-information{
+.section-one .account-body .contact-information {
     padding: 15px;
 }
-.section-one .account-body .p-10{
+
+.section-one .account-body .p-10 {
     padding: 10px;
-    background-color:#f8f9fa;
+    background-color: #f8f9fa;
+}
+
+.section-one tbody tr:last-child th,
+td {
+    border-bottom-width: 0
 }
