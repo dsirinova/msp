@@ -11,7 +11,7 @@
     cursor: pointer
 }
 
-h3{
+h3 {
     font-size: 26px;
 }
 
@@ -101,15 +101,7 @@ header .container .right-side .top-right-side .btn-registr-color {
         height: 60px;
     }
 
-    /* header .container a.logobefore::before {
-        display: none;
-    }
-
-    header .container .right-side .btn-login-color,
-    .btn-registr-color {
-        display: none;
-    } */
-    .top-right-side{
+    .top-right-side {
         display: none;
     }
 
@@ -166,7 +158,7 @@ header .container .right-side .top-right-side .btn-registr-color {
 @media screen and (min-width:992px) {
 
     .container .right-side .navbar {
-        font-size: 13px; 
+        font-size: 13px;
     }
 
     .navbar .offcanvas-body .navbar-nav {
@@ -300,7 +292,8 @@ header .container .right-side .top-right-side .btn-registr-color {
 .section-three .card .btn {
     background-color: #00817d;
 }
-.section-three .card .text-gray{
+
+.section-three .card .text-gray {
     color: #595959;
     font-size: 15px;
 }
